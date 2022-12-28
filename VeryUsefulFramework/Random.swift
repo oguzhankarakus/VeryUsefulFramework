@@ -9,6 +9,8 @@ import Foundation
 
 public final class Random {
     
+    public init() { }
+    
     public func getRandomNumbers(in range: ClosedRange<Int>) -> Int {
         randomNumbers(in: range)
     }
