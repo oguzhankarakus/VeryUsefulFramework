@@ -16,3 +16,4 @@ let package = Package(
             name: "VeryUsefulFramework", 
             path: "VeryUsefulFramework.xcframework")
     ])
+    
