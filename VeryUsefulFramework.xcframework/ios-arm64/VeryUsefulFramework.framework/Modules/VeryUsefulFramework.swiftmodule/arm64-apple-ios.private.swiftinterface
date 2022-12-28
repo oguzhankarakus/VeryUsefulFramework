@@ -8,6 +8,6 @@ import Swift
 import _Concurrency
 import _StringProcessing
 @_hasMissingDesignatedInitializers final public class Random {
-  final public func getRandomNumbers(in range: Swift.Range<Swift.Int>) -> Swift.Int
+  final public func getRandomNumbers(in range: Swift.ClosedRange<Swift.Int>) -> Swift.Int
   @objc deinit
 }

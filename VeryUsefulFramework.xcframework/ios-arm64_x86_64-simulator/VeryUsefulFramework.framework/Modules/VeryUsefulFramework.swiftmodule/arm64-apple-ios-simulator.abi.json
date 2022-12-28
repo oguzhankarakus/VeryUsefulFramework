@@ -32,8 +32,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Range",
-                "printedName": "Swift.Range<Swift.Int>",
+                "name": "ClosedRange",
+                "printedName": "Swift.ClosedRange<Swift.Int>",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -42,12 +42,12 @@
                     "usr": "s:Si"
                   }
                 ],
-                "usr": "s:Sn"
+                "usr": "s:SN"
               }
             ],
             "declKind": "Func",
-            "usr": "s:19VeryUsefulFramework6RandomC03getD7Numbers2inSiSnySiG_tF",
-            "mangledName": "$s19VeryUsefulFramework6RandomC03getD7Numbers2inSiSnySiG_tF",
+            "usr": "s:19VeryUsefulFramework6RandomC03getD7Numbers2inSiSNySiG_tF",
+            "mangledName": "$s19VeryUsefulFramework6RandomC03getD7Numbers2inSiSNySiG_tF",
             "moduleName": "VeryUsefulFramework",
             "declAttributes": [
               "Final",
