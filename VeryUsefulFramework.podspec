@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "VeryUsefulFramework"
-    s.version      = "0.0.4"
+    s.version      = "0.0.5"
     s.summary      = "VeryUsefulFramework: VeryUsefulFramework"
     s.description  = "Cocapods tutorial for Medium article. XCFramework is VeryUsefulFramework"
     s.homepage     = "https://github.com/oguzhankarakus/VeryUsefulFramework.git"
