@@ -1,0 +1,11 @@
+framework module VeryUsefulFramework {
+  umbrella header "VeryUsefulFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module VeryUsefulFramework.Swift {
+  header "VeryUsefulFramework-Swift.h"
+  requires objc
+}

@@ -1,0 +1,73 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VeryUsefulFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Random",
+        "printedName": "Random",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getRandomNumbers",
+            "printedName": "getRandomNumbers(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Range",
+                "printedName": "Swift.Range<Swift.Int>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sn"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19VeryUsefulFramework6RandomC03getD7Numbers2inSiSnySiG_tF",
+            "mangledName": "$s19VeryUsefulFramework6RandomC03getD7Numbers2inSiSnySiG_tF",
+            "moduleName": "VeryUsefulFramework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19VeryUsefulFramework6RandomC",
+        "mangledName": "$s19VeryUsefulFramework6RandomC",
+        "moduleName": "VeryUsefulFramework",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
