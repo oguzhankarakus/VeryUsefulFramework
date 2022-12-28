@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "VeryUsefulFramework",
     platforms: [
-        .iOS(.v16)
+        .iOS(.v11)
     ],
     products: [
         .library(
@@ -16,4 +16,3 @@ let package = Package(
             name: "VeryUsefulFramework", 
             path: "VeryUsefulFramework.xcframework")
     ])
-    
