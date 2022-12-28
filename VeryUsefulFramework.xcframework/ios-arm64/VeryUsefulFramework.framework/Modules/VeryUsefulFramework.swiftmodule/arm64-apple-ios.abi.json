@@ -20,6 +20,27 @@
         "printedName": "Random",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Random",
+                "printedName": "VeryUsefulFramework.Random",
+                "usr": "s:19VeryUsefulFramework6RandomC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19VeryUsefulFramework6RandomCACycfc",
+            "mangledName": "$s19VeryUsefulFramework6RandomCACycfc",
+            "moduleName": "VeryUsefulFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "getRandomNumbers",
             "printedName": "getRandomNumbers(in:)",
@@ -63,8 +84,7 @@
         "declAttributes": [
           "Final",
           "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true
+        ]
       }
     ],
     "json_format_version": 8
