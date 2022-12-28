@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
     s.name         = "VeryUsefulFramework"
     s.version      = "0.0.1"
     s.summary      = "VeryUsefulFramework: VeryUsefulFramework"
-    s.description  = "Cocapods tutorial"
+    s.description  = "Cocapods tutorial for Medium article. XCFramework is VeryUsefulFramework"
     s.homepage     = "https://github.com/oguzhankarakus/VeryUsefulFramework.git"
     s.license = { :type => "MIT", :file => "LICENSE" }
     s.author             = { "Oguzhan Karakus" => "oguzhan.karakus2011@gmail.com" }
